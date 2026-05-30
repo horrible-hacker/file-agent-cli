@@ -1,6 +1,6 @@
 import ollama
 import subprocess
-from classifier_tool import classify_command
+from agent_cli.classifier_tool import classify_command
 from langgraph.graph import StateGraph, START, END
 from langgraph.types import interrupt
 from typing_extensions import TypedDict, Annotated
